@@ -6,51 +6,6 @@ from player_class import *
 
 
 def game():
-    # def adjust_bullet(actor, bullet):
-    #
-    #     # bullet x position
-    #     x_fire = actor.x + (actor.width / 2) - (bullet.width / 2)
-    #
-    #     # bullet y position
-    #     y_fire = actor.y + actor.height - bullet.height
-    #
-    #     bullet.x = x_fire
-    #     bullet.y = y_fire
-    #
-    #
-    # def shoot(shooter):
-    #     # sets the clock as 0.
-    #     shooter.shoot_tick = 0
-    #
-    #     # bullet creation
-    #     b = Sprite("sprites/bullet.png")
-    #
-    #     # adjust bullet position.
-    #     adjust_bullet(shooter, b)
-    #
-    #     # puts the bullet in the bullets vector.
-    #     bullets.append(b)
-    #     #bullet_sound.play()
-    #     print(bullets)
-    #
-    #
-    # def player_shoot():
-    #     if keyboard.key_pressed("space"):
-    #         if player.shoot_tick > player.shoot_delay:
-    #             shoot(player)
-    #
-    #
-    # def bullet_movement():
-    #     for bullet in bullets:
-    #         bullet.move_y(-200 * window.delta_time() * game_speed)
-    #
-    #         if bullet.y < -bullet.height or bullet.y > window.height + bullet.height:
-    #             bullets.remove(bullet)
-    #
-    #
-    # def update_counters():
-    #     global player_shoot_tick
-    #     player_shoot_tick += window.delta_time()
 
     # global game vars.
     global game_state
